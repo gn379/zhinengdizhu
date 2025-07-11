@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\FWLIB\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\beep;..\HARDWARE\ADC;..\HARDWARE\OLED;..\HARDWARE\zigbee</IncludePath>
+              <IncludePath>..\CORE;..\FWLIB\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\beep;..\HARDWARE\dht11;..\HARDWARE\oled;..\HARDWARE\zigbee</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -420,14 +420,14 @@
               <FilePath>..\HARDWARE\LED\led.c</FilePath>
             </File>
             <File>
-              <FileName>adc.c</FileName>
+              <FileName>dht11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\ADC\adc.c</FilePath>
+              <FilePath>..\HARDWARE\DHT11\dht11.c</FilePath>
             </File>
             <File>
-              <FileName>oled_drv.c</FileName>
+              <FileName>oled.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\OLED\oled_drv.c</FilePath>
+              <FilePath>..\HARDWARE\OLED\oled.c</FilePath>
             </File>
             <File>
               <FileName>zigbee.c</FileName>
